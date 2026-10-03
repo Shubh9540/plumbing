@@ -14,8 +14,8 @@ export const Header = ({ data }: { data?: HeaderData }) => {
   const navLinks = [...(data.navLinksLeft || []), ...(data.navLinksRight || [])];
 
   return (
-    <header className="relative z-40 w-full bg-white shadow-sm">
-      <div className="max-w-[1250px] mx-auto w-full flex min-h-[62px] items-stretch lg:min-h-[68px]">
+    <header className="relative z-40 w-full px-4 lg:px-6 py-2 lg:py-4">
+      <div className="max-w-[1250px] mx-auto w-full flex min-h-[62px] items-stretch lg:min-h-[68px] bg-white shadow-md rounded-xl lg:rounded-2xl overflow-hidden">
         <nav className="hidden flex-1 items-stretch justify-start gap-8 px-8 lg:flex lg:pl-12 xl:gap-12 xl:pl-16">
           {navLinks.map((link) => (
             <Link key={link.id} href={link.url} className={`relative flex items-center whitespace-nowrap text-sm font-semibold transition-colors xl:text-base ${pathname === link.url ? 'text-[var(--color-primary)] after:absolute after:bottom-2 after:left-0 after:h-[3px] after:w-full after:rounded-full after:bg-[var(--color-primary)]' : 'text-[#171323] hover:text-[var(--color-accent)]'}`}>
