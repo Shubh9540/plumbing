@@ -36,7 +36,7 @@ export const ProcessSection = ({ data }: { data?: ProcessData }) => {
       <div className="max-w-[1250px] mx-auto px-4 md:px-6 relative z-10 flex flex-col h-full justify-between">
 
         {/* Header Section */}
-        <div className="mb-16 lg:mb-24 relative z-10 w-full lg:w-1/2">
+        <div className="mb-16 lg:mb-12 relative z-10 w-full lg:w-1/2">
           <div className="flex items-center gap-4 mb-4">
             <div className="w-12 h-[2px] bg-[#c49250]" />
             <h4 className="text-white font-bold text-xs sm:text-sm tracking-[0.2em] uppercase">
@@ -52,7 +52,7 @@ export const ProcessSection = ({ data }: { data?: ProcessData }) => {
         </div>
 
         {/* Steps Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 lg:gap-x-12 gap-y-16 relative mt-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-2 lg:gap-x-2 gap-y-16 relative mt-4">
 
           {/* Dotted Line connecting the steps (visible on desktop) */}
           {/* Top calc(50% + 18px) perfectly aligns with the vertical center of the card body */}
@@ -79,13 +79,13 @@ export const ProcessSection = ({ data }: { data?: ProcessData }) => {
                 style={{ marginTop: '36px', paddingTop: '48px', paddingBottom: '24px', paddingLeft: '20px', paddingRight: '20px' }}
               >
                 {/* Connector Arrow Icon (between cards) */}
-                {/* Positioned exactly in the vertical center of the card body, and horizontally centered in the 48px gap */}
+                {/* Positioned exactly in the vertical center of the card body, and horizontally centered in the 8px gap */}
                 {index < data.steps.length - 1 && (
                   <div
                     className="hidden lg:flex absolute bg-white rounded-full items-center justify-center shadow-md z-30"
                     style={{
                       top: '50%',
-                      right: '-24px',
+                      right: '-4px',
                       transform: 'translate(50%, -50%)',
                       width: '32px',
                       height: '32px'

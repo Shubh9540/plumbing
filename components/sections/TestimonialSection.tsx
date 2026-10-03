@@ -1,7 +1,7 @@
 'use client';
 import React, { useRef } from 'react';
 import { TestimonialsData } from '@/types/templates.types';
-import { FaArrowLeft, FaArrowRight, FaStar } from 'react-icons/fa';
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 export const TestimonialSection = ({ data }: { data?: TestimonialsData }) => {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -74,12 +74,6 @@ export const TestimonialSection = ({ data }: { data?: TestimonialsData }) => {
                   <img src={testi.avatar} alt={testi.name} className="w-full h-full object-cover" />
                 </div>
 
-                {/* Stars on top right */}
-                <div className="flex gap-1 justify-end text-[#3f1956] mb-4">
-                  {[...Array(testi.rating)].map((_, i) => (
-                    <FaStar key={i} size={16} />
-                  ))}
-                </div>
 
                 {/* Quote Text */}
                 <p className="text-gray-500 text-sm leading-relaxed mb-8 flex-grow relative z-10">

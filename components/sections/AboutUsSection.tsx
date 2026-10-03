@@ -2,12 +2,13 @@
 import React from 'react';
 import { AboutUsData } from '@/types/templates.types';
 import Link from 'next/link';
-import { FiTool, FiCheckCircle, FiArrowRight } from 'react-icons/fi';
+import { FiTool, FiArrowRight } from 'react-icons/fi';
+import { FaCheckCircle } from 'react-icons/fa';
 
 const renderIcon = (iconName: string) => {
   switch (iconName) {
     case 'FiTool': return <FiTool />;
-    case 'FiCheckCircle': return <FiCheckCircle />;
+    case 'FiCheckCircle': return <FaCheckCircle />;
     default: return <FiTool />;
   }
 };
@@ -48,10 +49,10 @@ export const AboutUsSection = ({ data, hideButton = false }: { data?: AboutUsDat
             {data.features.map((feat, index) => (
               <React.Fragment key={feat.id}>
                 <div className="flex-1 flex items-center gap-4">
-                  <div className="w-12 h-12 bg-[#f4f1f8] rounded-full flex items-center justify-center text-[var(--color-primary)] text-xl flex-shrink-0">
+                  <div className="w-14 h-14 bg-[#f4f1f8] rounded-2xl flex items-center justify-center text-[#3f1956] text-2xl flex-shrink-0">
                     {renderIcon(feat.icon)}
                   </div>
-                  <span className="text-sm font-bold text-[var(--color-primary)] leading-snug">
+                  <span className="text-sm font-bold text-[#051024] leading-snug">
                     {feat.title.split('\n').map((line, i) => <React.Fragment key={i}>{line}<br /></React.Fragment>)}
                   </span>
                 </div>
@@ -67,7 +68,7 @@ export const AboutUsSection = ({ data, hideButton = false }: { data?: AboutUsDat
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
               {data.checklists.map((item, idx) => (
                 <div key={idx} className="flex items-center gap-3">
-                  <FiCheckCircle className="text-[#3f1956] text-xl flex-shrink-0" />
+                  <FaCheckCircle className="text-[#3f1956] text-xl flex-shrink-0" />
                   <span className="text-sm text-[#4a4a4a] font-medium">{item}</span>
                 </div>
               ))}
