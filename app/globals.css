@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Fonts */
+  --font-primary: var(--font-poppins), sans-serif;
+  --font-heading: var(--font-poppins), sans-serif;
+
+  /* Global Colors — Plumbing Design */
+  --color-bg-main: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-bg-alt: #f8f5fb;
+  --color-primary: #35113f;
+  --color-accent: #7816a6;
+  --color-accent-light: #c58be8;
+  --color-text: #171323;
+  --color-text-light: #716b7c;
+  --color-border: #e8e1ee;
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+}

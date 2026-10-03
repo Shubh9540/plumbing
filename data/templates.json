@@ -1,0 +1,1897 @@
+{
+  "common": {
+    "Footer": {
+      "logoAlt": "BluePipe Logo",
+      "brandTitle": "BluePipe",
+      "copyrightText": "© 2026 BluePipe. All Rights Reserved.Powered by Lestow",
+      "description": "At BluePipe, we provide reliable and professional plumbing solutions for homes and businesses. From small repairs to complete installations, our team is committed to quality service and customer satisfaction.",
+      "hoursTitle": "Working Hours",
+      "hoursDays": "Mon - Sat:",
+      "hours": "9:00 AM - 7:00 PM\nSunday: Closed",
+      "socialLinks": [
+        {
+          "id": "fs1",
+          "icon": "FaFacebookF",
+          "url": "https://www.facebook.com"
+        },
+        {
+          "id": "fs2",
+          "icon": "FaInstagram",
+          "url": "https://www.instagram.com"
+        },
+        {
+          "id": "fs3",
+          "icon": "FaLinkedinIn",
+          "url": "https://www.linkedin.com"
+        },
+        {
+          "id": "fs4",
+          "icon": "FaYoutube",
+          "url": "https://www.youtube.com"
+        }
+      ],
+      "quickLinks": [
+        {
+          "id": "ql1",
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "id": "ql2",
+          "label": "About Us",
+          "url": "/about"
+        },
+        {
+          "id": "ql3",
+          "label": "Our Services",
+          "url": "/services"
+        },
+        {
+          "id": "ql4",
+          "label": "Blog",
+          "url": "/blog"
+        },
+        {
+          "id": "ql5",
+          "label": "Contact Us",
+          "url": "/contact"
+        },
+        {
+          "id": "ql6",
+          "label": "Enquiry Now",
+          "url": "/enquiry"
+        }
+      ],
+      "servicesLinks": [
+        {
+          "id": "sl1",
+          "label": "Plumbing Installation",
+          "url": "/services/plumbing-installation"
+        },
+        {
+          "id": "sl2",
+          "label": "Leak Detection",
+          "url": "/services/leak-detection"
+        },
+        {
+          "id": "sl3",
+          "label": "Pipe & Drain Cleaning",
+          "url": "/services/pipe-drain-cleaning"
+        },
+        {
+          "id": "sl4",
+          "label": "General Plumbing Repair",
+          "url": "/services/general-repair"
+        },
+        {
+          "id": "sl5",
+          "label": "Water Heater Services",
+          "url": "/services/water-heater"
+        },
+        {
+          "id": "sl6",
+          "label": "Bathroom Fixtures",
+          "url": "/services/bathroom-fixture"
+        }
+      ],
+      "contactInfo": {
+        "address": "123 Main St, New York, NY, USA",
+        "phone": "+1 000000000",
+        "email": "info@xyz.com"
+      },
+      "instagram": [
+        "/service/1.jpg",
+        "/service/2.jpg",
+        "/service/3.jpg",
+        "/service/4.jpg",
+        "/service/5.jpg",
+        "/service/6.jpg"
+      ]
+    },
+    "aboutBreadcrumb": {
+      "title": "About Us",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "About Us"
+        }
+      ]
+    },
+    "servicesBreadcrumb": {
+      "title": "Our Services",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Services"
+        }
+      ]
+    },
+    "contactBreadcrumb": {
+      "title": "Contact Us",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Contact Us"
+        }
+      ]
+    },
+    "enquiryBreadcrumb": {
+      "title": "Enquiry Now",
+      "paths": [
+        {
+          "label": "Home",
+          "url": "/"
+        },
+        {
+          "label": "Enquiry Now"
+        }
+      ]
+    }
+  },
+  "categories": {
+    "Plumbing": {
+      "sections": {
+        "TopBar": {
+          "variants": {
+            "PlumbingTopBar1": {
+              "phoneLabel": "Call Us :",
+              "phoneValue": "+1 000000000",
+              "emailValue": "info@xyz.com",
+              "followLabel": "Follow Us On :",
+              "socialLinks": [
+                {
+                  "id": "tb-fb",
+                  "icon": "FaFacebookF",
+                  "url": "https://www.facebook.com"
+                },
+                {
+                  "id": "tb-ig",
+                  "icon": "FaXTwitter",
+                  "url": "https://x.com"
+                },
+                {
+                  "id": "tb-in",
+                  "icon": "FaInstagram",
+                  "url": "https://www.instagram.com"
+                },
+                {
+                  "id": "tb-yt",
+                  "icon": "FaLinkedinIn",
+                  "url": "https://www.linkedin.com"
+                }
+              ]
+            }
+          }
+        },
+        "Header": {
+          "variants": {
+            "PlumbingHeader1": {
+              "logo": "/main logo/logo.png",
+              "logoAlt": "BluePipe Plumbing",
+              "contactInfoLeft": [
+                {
+                  "id": "ci-phone",
+                  "icon": "FiPhoneCall",
+                  "label": "Call for help:",
+                  "value": "+1 000000000"
+                },
+                {
+                  "id": "ci-email",
+                  "icon": "FiMail",
+                  "label": "Mail to us:",
+                  "value": "info@xyz.com"
+                }
+              ],
+              "contactInfoRight": [
+                {
+                  "id": "ci-location",
+                  "icon": "FiMapPin",
+                  "label": "Our Location:",
+                  "value": "123 Main St, New York, NY, USA"
+                }
+              ],
+              "navLinksLeft": [
+                {
+                  "id": "nl-home",
+                  "label": "Home",
+                  "url": "/"
+                },
+                {
+                  "id": "nl-about",
+                  "label": "About Us",
+                  "url": "/about"
+                },
+                {
+                  "id": "nl-services",
+                  "label": "Services",
+                  "url": "/services"
+                }
+              ],
+              "navLinksRight": [
+                {
+                  "id": "nl-faq",
+                  "label": "Blog",
+                  "url": "/blog"
+                },
+                {
+                  "id": "nl-contact",
+                  "label": "Contact Us",
+                  "url": "/contact"
+                }
+              ],
+              "contactButton": {
+                "text": "Enquire Now",
+                "url": "/enquiry"
+              }
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "PlumbingHero1": {
+              "subtitle": "PROFESSIONAL PLUMBING SERVICES",
+              "title1": "Swift Solutions",
+              "title2": "Plumbing For",
+              "title3": "Your Needs.",
+              "description": "From leak repairs to complete plumbing solutions, we provide reliable, efficient and long-lasting services for homes and businesses.",
+              "image1": "/banner/hero-bg-1.jpg",
+              "image2": "/banner/hero-circle1.png",
+              "image3": "/banner/hero-circle2.png",
+              "button": {
+                "text": "Enquire Now",
+                "url": "/enquiry"
+              }
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "PlumbingAboutUs1": {
+              "subtitle": "About Us",
+              "title1": "From Drip To Drain",
+              "title2": "We've Got You Covered",
+              "description": "At BluePipe, we provide reliable, efficient and long-lasting plumbing solutions for homes and businesses. From minor repairs to complete installations, our skilled team ensures quality workmanship and customer satisfaction every time.",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiTool",
+                  "title": "Pipe Installation\n& Repair"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiTool",
+                  "title": "Emergency\nPlumbing Services"
+                }
+              ],
+              "checklists": [
+                "Leak Detection & Repair",
+                "Emergency Plumbing",
+                "Fixture Replacement",
+                "Gas Line Services"
+              ],
+              "avatars": [
+                "/team/1.jpg",
+                "/team/2.jpg",
+                "/team/3.jpg"
+              ],
+              "customersText": "10K+\nCustomers Review",
+              "button": {
+                "text": "More Information ->",
+                "url": "/about"
+              },
+              "imageMain": "/about/about-img.jpg",
+              "badgeText1": "15+",
+              "badgeText2": "Years Of\nExperience",
+              "bgImage": "/about/about-bg1.jpg",
+              "imageSmall2": "/about/about-small.jpg"
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "PlumbingServices1": {
+              "subtitle": "OUR SERVICES",
+              "title1": "Professional Plumbing Services",
+              "title2": "For Your Home & Business",
+              "description": "From minor repairs to major installations, we provide reliable, efficient and high-quality plumbing solutions to keep your water flowing smoothly.",
+              "button": {
+                "text": "View More ->",
+                "url": "/services"
+              },
+              "services": [
+                {
+                  "id": "s1",
+                  "title": "Plumbing Installation",
+                  "description": "We provide professional plumbing installation for kitchens, bathrooms and new constructions with precision and care.",
+                  "image": "/service/1.jpg",
+                  "icon": "GiPipes",
+                  "url": "/services/plumbing-installation"
+                },
+                {
+                  "id": "s2",
+                  "title": "Leak Detection Services",
+                  "description": "Find and fix hidden leaks before they become bigger problems. We use advanced tools to detect leaks quickly and accurately.",
+                  "image": "/service/2.jpg",
+                  "icon": "MdPlumbing",
+                  "url": "/services/leak-detection"
+                },
+                {
+                  "id": "s3",
+                  "title": "Pipe & Drain Cleaning",
+                  "description": "Keep your pipes clear and your systems running smoothly with our professional drain cleaning services.",
+                  "image": "/service/3.jpg",
+                  "icon": "FaWrench",
+                  "url": "/services/pipe-drain-cleaning"
+                },
+                {
+                  "id": "s4",
+                  "title": "General Plumbing Repair",
+                  "description": "From dripping faucets to faulty pipes, we handle all types of plumbing repairs with reliable and long-lasting solutions.",
+                  "image": "/service/4.jpg",
+                  "icon": "FiTool",
+                  "url": "/services/general-repair"
+                },
+                {
+                  "id": "s5",
+                  "title": "Water Heater Services",
+                  "description": "Installation, repair and maintenance of all types of water heaters to ensure a continuous supply of hot water.",
+                  "image": "/service/5.jpg",
+                  "icon": "FaFire",
+                  "url": "/services/water-heater"
+                },
+                {
+                  "id": "s6",
+                  "title": "Bathroom Fixture Installation",
+                  "description": "We install and repair sinks, faucets, toilets, showers and other bathroom fixtures with expertise and care.",
+                  "image": "/service/6.jpg",
+                  "icon": "FaBath",
+                  "url": "/services/bathroom-fixture"
+                }
+              ]
+            }
+          }
+        },
+        "ServiceDetail": {
+          "variants": {
+            "plumbing-installation": {
+              "id": "plumbing-installation",
+              "subtitle": "Our Service",
+              "title1": "Plumbing",
+              "title2": "Installation",
+              "description": "We provide professional plumbing installation services for residential and commercial properties, ensuring long-lasting performance, leak-free connections and complete peace of mind.",
+              "imageMain": "/service/1.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "Our pipe installation services are designed to meet the needs of modern homes and businesses. Whether you are constructing a new property or upgrading your existing plumbing system, our skilled team ensures safe, efficient and high-quality installations using premium-grade materials.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your plumbing system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/2.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your plumbing requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "faqTitle": "Frequently Asked Questions",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "What types of pipes do you install?",
+                  "answer": "We install a variety of pipes including PVC, copper, PEX, and galvanized steel depending on your specific requirements and local plumbing codes."
+                },
+                {
+                  "id": "q2",
+                  "question": "How long does the installation process take?",
+                  "answer": "The duration depends on the scope of the project. A single fixture pipe installation might take a few hours, while whole-house repiping could take several days."
+                },
+                {
+                  "id": "q3",
+                  "question": "Do you provide a warranty on installation?",
+                  "answer": "Yes, we provide a comprehensive warranty on both our workmanship and the materials we supply."
+                },
+                {
+                  "id": "q4",
+                  "question": "Can you handle both residential and commercial projects?",
+                  "answer": "Absolutely! Our team is experienced in handling small residential pipe repairs as well as large-scale commercial pipe installations."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom Plumbing",
+                    "Emergency Plumbing"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "Plumbing Installation",
+                      "url": "/services/plumbing-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General Plumbing Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "leak-detection": {
+              "id": "leak-detection",
+              "subtitle": "Our Service",
+              "title1": "Leak",
+              "title2": "Detection Services",
+              "description": "Find and fix hidden leaks before they become bigger problems. We use advanced tools to detect leaks quickly and accurately.",
+              "imageMain": "/service/2.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "Find and fix hidden leaks before they become bigger problems. We use advanced tools to detect leaks quickly and accurately.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your plumbing system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/2.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your plumbing requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "faqTitle": "Frequently Asked Questions",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "What types of pipes do you install?",
+                  "answer": "We install a variety of pipes including PVC, copper, PEX, and galvanized steel depending on your specific requirements and local plumbing codes."
+                },
+                {
+                  "id": "q2",
+                  "question": "How long does the installation process take?",
+                  "answer": "The duration depends on the scope of the project. A single fixture pipe installation might take a few hours, while whole-house repiping could take several days."
+                },
+                {
+                  "id": "q3",
+                  "question": "Do you provide a warranty on installation?",
+                  "answer": "Yes, we provide a comprehensive warranty on both our workmanship and the materials we supply."
+                },
+                {
+                  "id": "q4",
+                  "question": "Can you handle both residential and commercial projects?",
+                  "answer": "Absolutely! Our team is experienced in handling small residential pipe repairs as well as large-scale commercial pipe installations."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom Plumbing",
+                    "Emergency Plumbing"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "Plumbing Installation",
+                      "url": "/services/plumbing-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General Plumbing Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "pipe-drain-cleaning": {
+              "id": "pipe-drain-cleaning",
+              "subtitle": "Our Service",
+              "title1": "Pipe",
+              "title2": "& Drain Cleaning",
+              "description": "Keep your pipes clear and your systems running smoothly with our professional drain cleaning services.",
+              "imageMain": "/service/3.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "Keep your pipes clear and your systems running smoothly with our professional drain cleaning services.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your plumbing system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/3.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your plumbing requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "faqTitle": "Frequently Asked Questions",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "What types of pipes do you install?",
+                  "answer": "We install a variety of pipes including PVC, copper, PEX, and galvanized steel depending on your specific requirements and local plumbing codes."
+                },
+                {
+                  "id": "q2",
+                  "question": "How long does the installation process take?",
+                  "answer": "The duration depends on the scope of the project. A single fixture pipe installation might take a few hours, while whole-house repiping could take several days."
+                },
+                {
+                  "id": "q3",
+                  "question": "Do you provide a warranty on installation?",
+                  "answer": "Yes, we provide a comprehensive warranty on both our workmanship and the materials we supply."
+                },
+                {
+                  "id": "q4",
+                  "question": "Can you handle both residential and commercial projects?",
+                  "answer": "Absolutely! Our team is experienced in handling small residential pipe repairs as well as large-scale commercial pipe installations."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom Plumbing",
+                    "Emergency Plumbing"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "Plumbing Installation",
+                      "url": "/services/plumbing-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General Plumbing Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "general-repair": {
+              "id": "general-repair",
+              "subtitle": "Our Service",
+              "title1": "General",
+              "title2": "Plumbing Repair",
+              "description": "From dripping faucets to faulty pipes, we handle all types of plumbing repairs with reliable and long-lasting solutions.",
+              "imageMain": "/service/4.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "From dripping faucets to faulty pipes, we handle all types of plumbing repairs with reliable and long-lasting solutions.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your plumbing system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/4.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your plumbing requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "faqTitle": "Frequently Asked Questions",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "What types of pipes do you install?",
+                  "answer": "We install a variety of pipes including PVC, copper, PEX, and galvanized steel depending on your specific requirements and local plumbing codes."
+                },
+                {
+                  "id": "q2",
+                  "question": "How long does the installation process take?",
+                  "answer": "The duration depends on the scope of the project. A single fixture pipe installation might take a few hours, while whole-house repiping could take several days."
+                },
+                {
+                  "id": "q3",
+                  "question": "Do you provide a warranty on installation?",
+                  "answer": "Yes, we provide a comprehensive warranty on both our workmanship and the materials we supply."
+                },
+                {
+                  "id": "q4",
+                  "question": "Can you handle both residential and commercial projects?",
+                  "answer": "Absolutely! Our team is experienced in handling small residential pipe repairs as well as large-scale commercial pipe installations."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom Plumbing",
+                    "Emergency Plumbing"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "Plumbing Installation",
+                      "url": "/services/plumbing-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General Plumbing Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "water-heater": {
+              "id": "water-heater",
+              "subtitle": "Our Service",
+              "title1": "Water",
+              "title2": "Heater Services",
+              "description": "Installation, repair and maintenance of all types of water heaters to ensure a continuous supply of hot water.",
+              "imageMain": "/service/5.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "Installation, repair and maintenance of all types of water heaters to ensure a continuous supply of hot water.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your plumbing system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/5.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your plumbing requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "faqTitle": "Frequently Asked Questions",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "What types of pipes do you install?",
+                  "answer": "We install a variety of pipes including PVC, copper, PEX, and galvanized steel depending on your specific requirements and local plumbing codes."
+                },
+                {
+                  "id": "q2",
+                  "question": "How long does the installation process take?",
+                  "answer": "The duration depends on the scope of the project. A single fixture pipe installation might take a few hours, while whole-house repiping could take several days."
+                },
+                {
+                  "id": "q3",
+                  "question": "Do you provide a warranty on installation?",
+                  "answer": "Yes, we provide a comprehensive warranty on both our workmanship and the materials we supply."
+                },
+                {
+                  "id": "q4",
+                  "question": "Can you handle both residential and commercial projects?",
+                  "answer": "Absolutely! Our team is experienced in handling small residential pipe repairs as well as large-scale commercial pipe installations."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom Plumbing",
+                    "Emergency Plumbing"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "Plumbing Installation",
+                      "url": "/services/plumbing-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General Plumbing Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            },
+            "bathroom-fixture": {
+              "id": "bathroom-fixture",
+              "subtitle": "Our Service",
+              "title1": "Bathroom",
+              "title2": "Fixture Installation",
+              "description": "We install and repair sinks, faucets, toilets, showers and other bathroom fixtures with expertise and care.",
+              "imageMain": "/service/6.jpg",
+              "features": [
+                {
+                  "id": "f1",
+                  "icon": "FiShield",
+                  "title": "Durable Installation"
+                },
+                {
+                  "id": "f2",
+                  "icon": "FiSettings",
+                  "title": "Quality Materials"
+                },
+                {
+                  "id": "f3",
+                  "icon": "FiClock",
+                  "title": "On-Time Completion"
+                },
+                {
+                  "id": "f4",
+                  "icon": "FiUsers",
+                  "title": "Experienced Technicians"
+                }
+              ],
+              "overviewTitle": "Service Overview",
+              "overviewText": [
+                "We install and repair sinks, faucets, toilets, showers and other bathroom fixtures with expertise and care.",
+                "From water supply lines to drainage pipes, we handle every aspect with precision and care. Our focus is on delivering reliable solutions that prevent future issues and keep your plumbing system running smoothly for years to come."
+              ],
+              "overviewImage": "/service/6.jpg",
+              "processTitle": "Our Process",
+              "processSteps": [
+                {
+                  "id": "p1",
+                  "number": "01",
+                  "title": "Site Inspection",
+                  "description": "We assess your plumbing requirements and recommend the best solution."
+                },
+                {
+                  "id": "p2",
+                  "number": "02",
+                  "title": "Planning & Design",
+                  "description": "Detailed planning to ensure a safe and efficient installation process."
+                },
+                {
+                  "id": "p3",
+                  "number": "03",
+                  "title": "Installation",
+                  "description": "Our experts install pipes using quality materials and proven techniques."
+                },
+                {
+                  "id": "p4",
+                  "number": "04",
+                  "title": "Testing & Support",
+                  "description": "We test the system for leaks and performance, and provide ongoing support."
+                }
+              ],
+              "faqTitle": "Frequently Asked Questions",
+              "faqs": [
+                {
+                  "id": "q1",
+                  "question": "What types of pipes do you install?",
+                  "answer": "We install a variety of pipes including PVC, copper, PEX, and galvanized steel depending on your specific requirements and local plumbing codes."
+                },
+                {
+                  "id": "q2",
+                  "question": "How long does the installation process take?",
+                  "answer": "The duration depends on the scope of the project. A single fixture pipe installation might take a few hours, while whole-house repiping could take several days."
+                },
+                {
+                  "id": "q3",
+                  "question": "Do you provide a warranty on installation?",
+                  "answer": "Yes, we provide a comprehensive warranty on both our workmanship and the materials we supply."
+                },
+                {
+                  "id": "q4",
+                  "question": "Can you handle both residential and commercial projects?",
+                  "answer": "Absolutely! Our team is experienced in handling small residential pipe repairs as well as large-scale commercial pipe installations."
+                }
+              ],
+              "sidebar": {
+                "quoteForm": {
+                  "title": "Get a Free Quote",
+                  "description": "Fill out the form and our team will get back to you with the best solution for your needs.",
+                  "buttonText": "Enquire Now ->",
+                  "servicesList": [
+                    "Pipe Installation",
+                    "Leak Repairs",
+                    "Drain Cleaning",
+                    "Water Heaters",
+                    "Bathroom Plumbing",
+                    "Emergency Plumbing"
+                  ]
+                },
+                "servicesList": {
+                  "title": "Our Services",
+                  "services": [
+                    {
+                      "id": "s1",
+                      "label": "Plumbing Installation",
+                      "url": "/services/plumbing-installation"
+                    },
+                    {
+                      "id": "s2",
+                      "label": "Leak Detection Services",
+                      "url": "/services/leak-detection"
+                    },
+                    {
+                      "id": "s3",
+                      "label": "Pipe & Drain Cleaning",
+                      "url": "/services/pipe-drain-cleaning"
+                    },
+                    {
+                      "id": "s4",
+                      "label": "General Plumbing Repair",
+                      "url": "/services/general-repair"
+                    },
+                    {
+                      "id": "s5",
+                      "label": "Water Heater Services",
+                      "url": "/services/water-heater"
+                    },
+                    {
+                      "id": "s6",
+                      "label": "Bathroom Fixture Installation",
+                      "url": "/services/bathroom-fixture"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Process": {
+          "variants": {
+            "PlumbingProcess1": {
+              "subtitle": "HOW IT WORKS",
+              "title1": "A Simple Process",
+              "title2": "For Plumbing Services",
+              "bgImage": "/other/process.jpg",
+              "steps": [
+                {
+                  "id": "p1",
+                  "icon": "FiMessageSquare",
+                  "number": "01",
+                  "title": "Get in Touch",
+                  "description": "Contact us with your plumbing need and share the details."
+                },
+                {
+                  "id": "p2",
+                  "icon": "FiCalendar",
+                  "number": "02",
+                  "title": "Schedule a Visit",
+                  "description": "We arrange a convenient time for our plumber to visit your location."
+                },
+                {
+                  "id": "p3",
+                  "icon": "FiTool",
+                  "number": "03",
+                  "title": "Inspection & Work",
+                  "description": "Our expert inspects the issue and provides the required plumbing service."
+                },
+                {
+                  "id": "p4",
+                  "icon": "FiCheckCircle",
+                  "number": "04",
+                  "title": "Service Completed",
+                  "description": "We complete the work with quality and ensure everything is working properly."
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "PlumbingTestimonials1": {
+              "subtitle": "Testimonials",
+              "title1": "What Our Clients Say",
+              "title2": "About Our Plumbing Services",
+              "description": "We take pride in delivering reliable plumbing solutions and exceptional customer service. Here's what our valued clients have to say about their experience with us.",
+              "testimonials": [
+                {
+                  "id": "t1",
+                  "name": "Priya Mehta",
+                  "location": "Homeowner, Delhi",
+                  "quote": "The team did an amazing job at our home. Everything was spotless, and they were professional, polite and on time. Highly recommend their services!",
+                  "rating": 5,
+                  "avatar": "/team/1.jpg"
+                },
+                {
+                  "id": "t2",
+                  "name": "Rohit Sharma",
+                  "location": "Business Owner, Noida",
+                  "quote": "We've been using their office cleaning services for over a year now. The quality, consistency and attention to detail are outstanding. Our workspace has never looked better!",
+                  "rating": 5,
+                  "avatar": "/team/2.jpg"
+                },
+                {
+                  "id": "t3",
+                  "name": "Anjali Verma",
+                  "location": "Homeowner, Gurugram",
+                  "quote": "Excellent service! The staff was friendly, thorough and used safe, eco-friendly products. My home feels fresh and clean every time.",
+                  "rating": 5,
+                  "avatar": "/team/3.jpg"
+                },
+                {
+                  "id": "t4",
+                  "name": "Neha Gupta",
+                  "location": "Homeowner, Pune",
+                  "quote": "The team did an amazing job at our home. Everything was spotless, and they were professional, polite and on time. Highly recommend their services!",
+                  "rating": 5,
+                  "avatar": "/team/4.jpg"
+                },
+                {
+                  "id": "t5",
+                  "name": "Vikram Singh",
+                  "location": "Office Manager, Mumbai",
+                  "quote": "We've been using their office cleaning services for over a year now. The quality, consistency and attention to detail are outstanding. Our workspace has never looked better!",
+                  "rating": 5,
+                  "avatar": "/team/1.jpg"
+                },
+                {
+                  "id": "t6",
+                  "name": "Ritu Sharma",
+                  "location": "Homeowner, Bangalore",
+                  "quote": "Excellent service! The staff was friendly, thorough and used safe, eco-friendly products. My home feels fresh and clean every time.",
+                  "rating": 5,
+                  "avatar": "/team/2.jpg"
+                }
+              ]
+            }
+          }
+        },
+        "Cta": {
+          "variants": {
+            "PlumbingCta1": {
+              "subtitle": "FREE CONSULTATION",
+              "title1": "Ready To Get Reliable",
+              "title2": "Plumbing Services?",
+              "description": "Whether it's a small repair or a major plumbing issue, our expert team is here to help. Get in touch today for a free consultation.",
+              "button1": {
+                "text": "Get A Quote",
+                "url": "/enquiry"
+              },
+              "button2": {
+                "text": "Contact Us",
+                "url": "/contact"
+              },
+              "image": "/other/cta.jpg"
+            }
+          }
+        },
+        "Blogs": {
+          "variants": {
+            "PlumbingBlogs1": {
+              "subtitle": "Our Blog",
+              "title1": "Latest News &",
+              "title2": "Blogs",
+              "description": "Helpful tips, expert advice, and the latest updates on plumbing services to keep your home and business running smoothly.",
+              "button": {
+                "text": "View All Blogs",
+                "url": "/blog"
+              },
+              "blogs": [
+                {
+                  "id": "b1",
+                  "image": "/blog/1.jpg",
+                  "date": "12 Jun 2026",
+                  "category": "PLUMBING TIPS",
+                  "title": "5 Common Plumbing Problems And How To Fix Them",
+                  "description": "Learn about the most common plumbing issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/5-common-plumbing-problems-and-how-to-fix-them",
+                  "content": {
+                    "intro": "Plumbing issues can be inconvenient, costly, and disruptive to your daily routine. The good news is that most common plumbing problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your plumbing system in good condition and avoid unexpected repairs.",
+                    "sections": [
+                      {
+                        "heading": "1. Be Mindful of What Goes Down the Drain",
+                        "text": "One of the most common causes of plumbing problems is clogged drains. Avoid pouring grease, oil, coffee grounds, and food scraps down the kitchen sink. In bathrooms, keep hair, soap residue, and other debris out of the drains. Using drain strainers can help catch unwanted material and keep your pipes clear."
+                      },
+                      {
+                        "heading": "2. Check for Leaks Regularly",
+                        "text": "Leaky faucets, pipes, or toilets may seem minor, but they can lead to bigger issues if left untreated. Check under sinks, around toilets, and near water heaters for any signs of moisture or leaks. Early detection can save water and prevent costly damage."
+                      },
+                      {
+                        "heading": "3. Maintain Your Water Heater",
+                        "text": "Your water heater works hard to provide hot water, so regular maintenance is key. Flush the tank at least once a year to remove sediment buildup, which can reduce efficiency and extend the lifespan of your unit."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b2",
+                  "image": "/blog/2.jpg",
+                  "date": "08 Jun 2026",
+                  "category": "MAINTENANCE",
+                  "title": "Essential Plumbing Maintenance Tips For Your Home",
+                  "description": "Regular plumbing maintenance can help prevent costly repairs. Discover easy tips to keep your plumbing system in top condition.",
+                  "url": "/blog/essential-plumbing-maintenance-tips-for-your-home",
+                  "content": {
+                    "intro": "Plumbing issues can be inconvenient, costly, and disruptive to your daily routine. The good news is that most common plumbing problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your plumbing system in good condition and avoid unexpected repairs.",
+                    "sections": [
+                      {
+                        "heading": "1. Be Mindful of What Goes Down the Drain",
+                        "text": "One of the most common causes of plumbing problems is clogged drains. Avoid pouring grease, oil, coffee grounds, and food scraps down the kitchen sink. In bathrooms, keep hair, soap residue, and other debris out of the drains. Using drain strainers can help catch unwanted material and keep your pipes clear."
+                      },
+                      {
+                        "heading": "2. Check for Leaks Regularly",
+                        "text": "Leaky faucets, pipes, or toilets may seem minor, but they can lead to bigger issues if left untreated. Check under sinks, around toilets, and near water heaters for any signs of moisture or leaks. Early detection can save water and prevent costly damage."
+                      },
+                      {
+                        "heading": "3. Maintain Your Water Heater",
+                        "text": "Your water heater works hard to provide hot water, so regular maintenance is key. Flush the tank at least once a year to remove sediment buildup, which can reduce efficiency and extend the lifespan of your unit."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b3",
+                  "image": "/blog/3.jpg",
+                  "date": "02 Jun 2026",
+                  "category": "WATER HEATERS",
+                  "title": "Signs Your Water Heater Needs Repair Or Replacement",
+                  "description": "Is your water heater not working as it should? Here are the key signs to watch for and when it's time to call a professional.",
+                  "url": "/blog/signs-your-water-heater-needs-repair-or-replacement",
+                  "content": {
+                    "intro": "Plumbing issues can be inconvenient, costly, and disruptive to your daily routine. The good news is that most common plumbing problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your plumbing system in good condition and avoid unexpected repairs.",
+                    "sections": [
+                      {
+                        "heading": "1. Be Mindful of What Goes Down the Drain",
+                        "text": "One of the most common causes of plumbing problems is clogged drains. Avoid pouring grease, oil, coffee grounds, and food scraps down the kitchen sink. In bathrooms, keep hair, soap residue, and other debris out of the drains. Using drain strainers can help catch unwanted material and keep your pipes clear."
+                      },
+                      {
+                        "heading": "2. Check for Leaks Regularly",
+                        "text": "Leaky faucets, pipes, or toilets may seem minor, but they can lead to bigger issues if left untreated. Check under sinks, around toilets, and near water heaters for any signs of moisture or leaks. Early detection can save water and prevent costly damage."
+                      },
+                      {
+                        "heading": "3. Maintain Your Water Heater",
+                        "text": "Your water heater works hard to provide hot water, so regular maintenance is key. Flush the tank at least once a year to remove sediment buildup, which can reduce efficiency and extend the lifespan of your unit."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b4",
+                  "image": "/blog/1.jpg",
+                  "date": "12 Jun 2026",
+                  "category": "PLUMBING TIPS",
+                  "title": "Top Signs You Need a Professional Plumber",
+                  "description": "Learn about the most common plumbing issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/top-signs-you-need-a-professional-plumber",
+                  "content": {
+                    "intro": "Plumbing issues can be inconvenient, costly, and disruptive to your daily routine. The good news is that most common plumbing problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your plumbing system in good condition and avoid unexpected repairs.",
+                    "sections": [
+                      {
+                        "heading": "1. Be Mindful of What Goes Down the Drain",
+                        "text": "One of the most common causes of plumbing problems is clogged drains. Avoid pouring grease, oil, coffee grounds, and food scraps down the kitchen sink. In bathrooms, keep hair, soap residue, and other debris out of the drains. Using drain strainers can help catch unwanted material and keep your pipes clear."
+                      },
+                      {
+                        "heading": "2. Check for Leaks Regularly",
+                        "text": "Leaky faucets, pipes, or toilets may seem minor, but they can lead to bigger issues if left untreated. Check under sinks, around toilets, and near water heaters for any signs of moisture or leaks. Early detection can save water and prevent costly damage."
+                      },
+                      {
+                        "heading": "3. Maintain Your Water Heater",
+                        "text": "Your water heater works hard to provide hot water, so regular maintenance is key. Flush the tank at least once a year to remove sediment buildup, which can reduce efficiency and extend the lifespan of your unit."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b5",
+                  "image": "/blog/1.jpg",
+                  "date": "12 Jun 2026",
+                  "category": "PLUMBING TIPS",
+                  "title": "How to Stop a Running Toilet Fast",
+                  "description": "Learn about the most common plumbing issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/how-to-stop-a-running-toilet-fast",
+                  "content": {
+                    "intro": "Plumbing issues can be inconvenient, costly, and disruptive to your daily routine. The good news is that most common plumbing problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your plumbing system in good condition and avoid unexpected repairs.",
+                    "sections": [
+                      {
+                        "heading": "1. Be Mindful of What Goes Down the Drain",
+                        "text": "One of the most common causes of plumbing problems is clogged drains. Avoid pouring grease, oil, coffee grounds, and food scraps down the kitchen sink. In bathrooms, keep hair, soap residue, and other debris out of the drains. Using drain strainers can help catch unwanted material and keep your pipes clear."
+                      },
+                      {
+                        "heading": "2. Check for Leaks Regularly",
+                        "text": "Leaky faucets, pipes, or toilets may seem minor, but they can lead to bigger issues if left untreated. Check under sinks, around toilets, and near water heaters for any signs of moisture or leaks. Early detection can save water and prevent costly damage."
+                      },
+                      {
+                        "heading": "3. Maintain Your Water Heater",
+                        "text": "Your water heater works hard to provide hot water, so regular maintenance is key. Flush the tank at least once a year to remove sediment buildup, which can reduce efficiency and extend the lifespan of your unit."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b6",
+                  "image": "/blog/1.jpg",
+                  "date": "12 Jun 2026",
+                  "category": "PLUMBING TIPS",
+                  "title": "The Dangers of Chemical Drain Cleaners",
+                  "description": "Learn about the most common plumbing issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/the-dangers-of-chemical-drain-cleaners",
+                  "content": {
+                    "intro": "Plumbing issues can be inconvenient, costly, and disruptive to your daily routine. The good news is that most common plumbing problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your plumbing system in good condition and avoid unexpected repairs.",
+                    "sections": [
+                      {
+                        "heading": "1. Be Mindful of What Goes Down the Drain",
+                        "text": "One of the most common causes of plumbing problems is clogged drains. Avoid pouring grease, oil, coffee grounds, and food scraps down the kitchen sink. In bathrooms, keep hair, soap residue, and other debris out of the drains. Using drain strainers can help catch unwanted material and keep your pipes clear."
+                      },
+                      {
+                        "heading": "2. Check for Leaks Regularly",
+                        "text": "Leaky faucets, pipes, or toilets may seem minor, but they can lead to bigger issues if left untreated. Check under sinks, around toilets, and near water heaters for any signs of moisture or leaks. Early detection can save water and prevent costly damage."
+                      },
+                      {
+                        "heading": "3. Maintain Your Water Heater",
+                        "text": "Your water heater works hard to provide hot water, so regular maintenance is key. Flush the tank at least once a year to remove sediment buildup, which can reduce efficiency and extend the lifespan of your unit."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b7",
+                  "image": "/blog/1.jpg",
+                  "date": "12 Jun 2026",
+                  "category": "PLUMBING TIPS",
+                  "title": "Winterizing Your Home Plumbing System",
+                  "description": "Learn about the most common plumbing issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/winterizing-your-home-plumbing-system",
+                  "content": {
+                    "intro": "Plumbing issues can be inconvenient, costly, and disruptive to your daily routine. The good news is that most common plumbing problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your plumbing system in good condition and avoid unexpected repairs.",
+                    "sections": [
+                      {
+                        "heading": "1. Be Mindful of What Goes Down the Drain",
+                        "text": "One of the most common causes of plumbing problems is clogged drains. Avoid pouring grease, oil, coffee grounds, and food scraps down the kitchen sink. In bathrooms, keep hair, soap residue, and other debris out of the drains. Using drain strainers can help catch unwanted material and keep your pipes clear."
+                      },
+                      {
+                        "heading": "2. Check for Leaks Regularly",
+                        "text": "Leaky faucets, pipes, or toilets may seem minor, but they can lead to bigger issues if left untreated. Check under sinks, around toilets, and near water heaters for any signs of moisture or leaks. Early detection can save water and prevent costly damage."
+                      },
+                      {
+                        "heading": "3. Maintain Your Water Heater",
+                        "text": "Your water heater works hard to provide hot water, so regular maintenance is key. Flush the tank at least once a year to remove sediment buildup, which can reduce efficiency and extend the lifespan of your unit."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b8",
+                  "image": "/blog/1.jpg",
+                  "date": "12 Jun 2026",
+                  "category": "PLUMBING TIPS",
+                  "title": "Benefits of Upgrading to a Tankless Water Heater",
+                  "description": "Learn about the most common plumbing issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/benefits-of-upgrading-to-a-tankless-water-heater",
+                  "content": {
+                    "intro": "Plumbing issues can be inconvenient, costly, and disruptive to your daily routine. The good news is that most common plumbing problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your plumbing system in good condition and avoid unexpected repairs.",
+                    "sections": [
+                      {
+                        "heading": "1. Be Mindful of What Goes Down the Drain",
+                        "text": "One of the most common causes of plumbing problems is clogged drains. Avoid pouring grease, oil, coffee grounds, and food scraps down the kitchen sink. In bathrooms, keep hair, soap residue, and other debris out of the drains. Using drain strainers can help catch unwanted material and keep your pipes clear."
+                      },
+                      {
+                        "heading": "2. Check for Leaks Regularly",
+                        "text": "Leaky faucets, pipes, or toilets may seem minor, but they can lead to bigger issues if left untreated. Check under sinks, around toilets, and near water heaters for any signs of moisture or leaks. Early detection can save water and prevent costly damage."
+                      },
+                      {
+                        "heading": "3. Maintain Your Water Heater",
+                        "text": "Your water heater works hard to provide hot water, so regular maintenance is key. Flush the tank at least once a year to remove sediment buildup, which can reduce efficiency and extend the lifespan of your unit."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b9",
+                  "image": "/blog/1.jpg",
+                  "date": "12 Jun 2026",
+                  "category": "PLUMBING TIPS",
+                  "title": "What to Do During a Plumbing Emergency",
+                  "description": "Learn about the most common plumbing issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/what-to-do-during-a-plumbing-emergency",
+                  "content": {
+                    "intro": "Plumbing issues can be inconvenient, costly, and disruptive to your daily routine. The good news is that most common plumbing problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your plumbing system in good condition and avoid unexpected repairs.",
+                    "sections": [
+                      {
+                        "heading": "1. Be Mindful of What Goes Down the Drain",
+                        "text": "One of the most common causes of plumbing problems is clogged drains. Avoid pouring grease, oil, coffee grounds, and food scraps down the kitchen sink. In bathrooms, keep hair, soap residue, and other debris out of the drains. Using drain strainers can help catch unwanted material and keep your pipes clear."
+                      },
+                      {
+                        "heading": "2. Check for Leaks Regularly",
+                        "text": "Leaky faucets, pipes, or toilets may seem minor, but they can lead to bigger issues if left untreated. Check under sinks, around toilets, and near water heaters for any signs of moisture or leaks. Early detection can save water and prevent costly damage."
+                      },
+                      {
+                        "heading": "3. Maintain Your Water Heater",
+                        "text": "Your water heater works hard to provide hot water, so regular maintenance is key. Flush the tank at least once a year to remove sediment buildup, which can reduce efficiency and extend the lifespan of your unit."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b10",
+                  "image": "/blog/1.jpg",
+                  "date": "12 Jun 2026",
+                  "category": "PLUMBING TIPS",
+                  "title": "Understanding Your Home Water Pressure",
+                  "description": "Learn about the most common plumbing issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/understanding-your-home-water-pressure",
+                  "content": {
+                    "intro": "Plumbing issues can be inconvenient, costly, and disruptive to your daily routine. The good news is that most common plumbing problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your plumbing system in good condition and avoid unexpected repairs.",
+                    "sections": [
+                      {
+                        "heading": "1. Be Mindful of What Goes Down the Drain",
+                        "text": "One of the most common causes of plumbing problems is clogged drains. Avoid pouring grease, oil, coffee grounds, and food scraps down the kitchen sink. In bathrooms, keep hair, soap residue, and other debris out of the drains. Using drain strainers can help catch unwanted material and keep your pipes clear."
+                      },
+                      {
+                        "heading": "2. Check for Leaks Regularly",
+                        "text": "Leaky faucets, pipes, or toilets may seem minor, but they can lead to bigger issues if left untreated. Check under sinks, around toilets, and near water heaters for any signs of moisture or leaks. Early detection can save water and prevent costly damage."
+                      },
+                      {
+                        "heading": "3. Maintain Your Water Heater",
+                        "text": "Your water heater works hard to provide hot water, so regular maintenance is key. Flush the tank at least once a year to remove sediment buildup, which can reduce efficiency and extend the lifespan of your unit."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b11",
+                  "image": "/blog/1.jpg",
+                  "date": "12 Jun 2026",
+                  "category": "PLUMBING TIPS",
+                  "title": "Simple Tips to Keep Your Drains Clean",
+                  "description": "Learn about the most common plumbing issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/simple-tips-to-keep-your-drains-clean",
+                  "content": {
+                    "intro": "Plumbing issues can be inconvenient, costly, and disruptive to your daily routine. The good news is that most common plumbing problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your plumbing system in good condition and avoid unexpected repairs.",
+                    "sections": [
+                      {
+                        "heading": "1. Be Mindful of What Goes Down the Drain",
+                        "text": "One of the most common causes of plumbing problems is clogged drains. Avoid pouring grease, oil, coffee grounds, and food scraps down the kitchen sink. In bathrooms, keep hair, soap residue, and other debris out of the drains. Using drain strainers can help catch unwanted material and keep your pipes clear."
+                      },
+                      {
+                        "heading": "2. Check for Leaks Regularly",
+                        "text": "Leaky faucets, pipes, or toilets may seem minor, but they can lead to bigger issues if left untreated. Check under sinks, around toilets, and near water heaters for any signs of moisture or leaks. Early detection can save water and prevent costly damage."
+                      },
+                      {
+                        "heading": "3. Maintain Your Water Heater",
+                        "text": "Your water heater works hard to provide hot water, so regular maintenance is key. Flush the tank at least once a year to remove sediment buildup, which can reduce efficiency and extend the lifespan of your unit."
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "b12",
+                  "image": "/blog/1.jpg",
+                  "date": "12 Jun 2026",
+                  "category": "PLUMBING TIPS",
+                  "title": "How to Maintain Your Water Heater for Long Life",
+                  "description": "Learn about the most common plumbing issues homeowners face and simple tips to fix them before they become major problems.",
+                  "url": "/blog/how-to-maintain-your-water-heater-for-long-life",
+                  "content": {
+                    "intro": "Plumbing issues can be inconvenient, costly, and disruptive to your daily routine. The good news is that most common plumbing problems can be prevented with simple maintenance and mindful habits. In this guide, we will share practical tips to keep your plumbing system in good condition and avoid unexpected repairs.",
+                    "sections": [
+                      {
+                        "heading": "1. Be Mindful of What Goes Down the Drain",
+                        "text": "One of the most common causes of plumbing problems is clogged drains. Avoid pouring grease, oil, coffee grounds, and food scraps down the kitchen sink. In bathrooms, keep hair, soap residue, and other debris out of the drains. Using drain strainers can help catch unwanted material and keep your pipes clear."
+                      },
+                      {
+                        "heading": "2. Check for Leaks Regularly",
+                        "text": "Leaky faucets, pipes, or toilets may seem minor, but they can lead to bigger issues if left untreated. Check under sinks, around toilets, and near water heaters for any signs of moisture or leaks. Early detection can save water and prevent costly damage."
+                      },
+                      {
+                        "heading": "3. Maintain Your Water Heater",
+                        "text": "Your water heater works hard to provide hot water, so regular maintenance is key. Flush the tank at least once a year to remove sediment buildup, which can reduce efficiency and extend the lifespan of your unit."
+                      }
+                    ]
+                  }
+                }
+              ],
+              "sidebarCta": {
+                "title1": "Need Professional",
+                "title2": "Plumbing Help?",
+                "description": "Our experienced team is ready to assist you with all your plumbing needs. Get in touch today for a quick and reliable solution.",
+                "buttonText": "Enquire Now ->",
+                "buttonUrl": "/enquiry"
+              }
+            }
+          }
+        },
+        "whyChooseUs": {
+          "variants": {
+            "PlumbingWhyChooseUs1": {
+              "subtitle": "Why Choose Us",
+              "title1": "Why Choose",
+              "title2": "BluePipe?",
+              "description": "We are committed to delivering reliable, high-quality plumbing solutions with a focus on customer satisfaction and long-term value.",
+              "features": [
+                {
+                  "id": "wc-1",
+                  "icon": "FiTool",
+                  "title": "Experienced Professionals",
+                  "description": "Our skilled and certified plumbers bring years of hands-on experience to every job."
+                },
+                {
+                  "id": "wc-2",
+                  "icon": "FiShield",
+                  "title": "Reliable & Trustworthy",
+                  "description": "We show up on time, do the job right, and ensure your complete peace of mind."
+                },
+                {
+                  "id": "wc-3",
+                  "icon": "FiSettings",
+                  "title": "Quality Workmanship",
+                  "description": "We use the best tools and proven techniques to deliver long-lasting plumbing solutions."
+                },
+                {
+                  "id": "wc-4",
+                  "icon": "FiDollarSign",
+                  "title": "Transparent Pricing",
+                  "description": "No hidden charges. We provide clear and upfront quotes before starting any work."
+                },
+                {
+                  "id": "wc-5",
+                  "icon": "FiClock",
+                  "title": "Fast & Efficient Service",
+                  "description": "From minor repairs to major installations, we respond quickly and work efficiently."
+                },
+                {
+                  "id": "wc-6",
+                  "icon": "FiUsers",
+                  "title": "Customer Satisfaction",
+                  "description": "Your satisfaction is our priority. We go the extra mile to exceed your expectations."
+                }
+              ],
+              "button": {
+                "text": "Get Started ->",
+                "url": "/contact"
+              },
+              "imageMain": "/about/about1.jpg",
+              "badgeTitle": "Trusted",
+              "badgeText": "Services"
+            }
+          }
+        },
+        "contact": {
+          "variants": {
+            "PlumbingContact1": {
+              "subtitle": "Contact Us",
+              "title1": "Get In Touch",
+              "title2": "With Us",
+              "description": "Have a question, need a quote, or want to schedule a plumbing service? Our team is here to help. Reach out to us through the form or using the contact details below.",
+              "contactInfo": {
+                "phoneTitle": "Call Us",
+                "phone": "+1 000000000",
+                "emailTitle": "Email Us",
+                "email": "info@xyz.com",
+                "addressTitle": "Our Location",
+                "address": "123 Main St, New York, NY, USA",
+                "hoursTitle": "Working Hours",
+                "hoursLine1": "Mon - Sat: 9am - 7pm",
+                "hoursLine2": "Sunday: CLOSED"
+              },
+              "form": {
+                "title": "Send Us a Message",
+                "description": "Fill out the form below and our team will get back to you shortly.",
+                "buttonText": "Send Message",
+                "servicesList": [
+                  "Residential Cleaning",
+                  "Commercial Cleaning",
+                  "Post-Construction Cleaning",
+                  "Window Cleaning",
+                  "Carpet Cleaning",
+                  "Other"
+                ]
+              },
+              "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.2528000654!2d-74.1444874457788!3d40.69766374865766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+              "infoBoxes": [
+                {
+                  "icon": "FaClock",
+                  "title": "Working Hours",
+                  "desc1": "Mon - Sat: 9:00 AM - 7:00 PM",
+                  "desc2": "Sunday: Closed"
+                },
+                {
+                  "icon": "FaHeadset",
+                  "title": "Need Urgent Help?",
+                  "desc1": "Call us anytime for",
+                  "desc2": "emergency plumbing service."
+                },
+                {
+                  "icon": "FaFileAlt",
+                  "title": "Request a Quote",
+                  "desc1": "Get a free, no-obligation",
+                  "desc2": "estimate for your plumbing needs."
+                }
+              ]
+            }
+          }
+        },
+        "enquiry": {
+          "variants": {
+            "PlumbingEnquiry1": {
+              "subtitle": "GET A QUOTE",
+              "title1": "Get a Quote for",
+              "title2": "Our Cleaning Services",
+              "description": "Tell us about your cleaning requirements and we'll provide you with a customized quote. It's quick, easy and completely free.",
+              "features": [
+                {
+                  "title": "Tailored to Your Needs",
+                  "description": "Get a quote based on your specific cleaning requirements."
+                },
+                {
+                  "title": "Quick & Easy",
+                  "description": "Fill out the form in just a few minutes."
+                },
+                {
+                  "title": "No Obligation",
+                  "description": "Receive a personalized quote with no commitment."
+                }
+              ],
+              "form": {
+                "title1": "Request a",
+                "title2": "Quote",
+                "description": "Fill out the form below and our team will get back to you shortly with a customized quote.",
+                "buttonText": "Submit Request ->",
+                "servicesList": [
+                  "Residential Cleaning",
+                  "Commercial Cleaning",
+                  "Post-Construction Cleaning",
+                  "Window Cleaning",
+                  "Carpet Cleaning",
+                  "Other"
+                ]
+              }
+            }
+          }
+        }
+      },
+      "templateComponents": {
+        "shared": {
+          "Topbar": "PlumbingTopBar1",
+          "Header": "PlumbingHeader1",
+          "Footer": "PlumbingFooter1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "HeroSection",
+                "component": "PlumbingHero1"
+              },
+              {
+                "key": "AboutUs",
+                "component": "PlumbingAboutUs1"
+              },
+              {
+                "key": "Services",
+                "component": "PlumbingServices1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "PlumbingTestimonials1"
+              }
+            ]
+          },
+          "about": {
+            "components": [
+              {
+                "key": "AboutUs",
+                "component": "PlumbingAboutUs1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "PlumbingWhyChooseUs1"
+              }
+            ]
+          },
+          "services": {
+            "components": [
+              {
+                "key": "Services",
+                "component": "PlumbingServices1"
+              },
+              {
+                "key": "WhyChooseUs",
+                "component": "PlumbingWhyChooseUs1"
+              }
+            ]
+          },
+          "gallery": {
+            "components": [
+              {
+                "key": "Gallery",
+                "component": "PlumbingGallery1"
+              },
+              {
+                "key": "VideoGallery",
+                "component": "PlumbingVideoGallery1"
+              }
+            ]
+          },
+          "faq": {
+            "components": [
+              {
+                "key": "Faq",
+                "component": "PlumbingFaq1"
+              }
+            ]
+          },
+          "contact": {
+            "components": [
+              {
+                "key": "Contact",
+                "component": "PlumbingContact1"
+              }
+            ]
+          },
+          "quote": {
+            "components": [
+              {
+                "key": "Quote",
+                "component": "PlumbingQuote1"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
